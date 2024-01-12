@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(243, 246, 255);
+}
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.box {
+  background-color: rgb(143, 8, 44);
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+aside {
+  background-color: rgb(253, 253, 253);
+  width: 15%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  margin-left: 10px;
+}
+.logo {
+  width: 90%;
+  height: 90px;
+  position: relative;
+  left: 7px;
+}
+.choix {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.choix div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.choix div .box1 {
+  height: 30px;
+  width: 30px;
+}
+.choix div p {
+  color: rgb(143, 8, 44);
+  margin-left: 10px;
+}
+.choix div p:hover {
+  color: rgb(216, 126, 196);
+}
+a {
+  text-decoration: none;
+}
+
+.asidemain {
+  display: flex;
+  gap: 15px;
+}
+main {
+  display: flex;
+  gap: 15px;
+  width: 85%;
+}
+legend {
+  color: rgb(143, 8, 44);
+}
+.coordonnees {
+  background-color: rgb(253, 253, 253);
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin-top: 10px;
+}
+.coordonnees .cord1 {
+  border: none;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.coordonnees .cord1 img {
+  height: 150px;
+}
+.coordonnees .cord1 div {
+  display: flex;
+  flex-direction: column;
+}
+.coordonnees .cord1 p {
+  font-size: 20px;
+  margin-left: 10px;
+  color: rgb(143, 8, 44);
+}
+.coordonnees .cord2 {
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.coordonnees .cord2 img {
+  height: 20px;
+  position: relative;
+  top: 2px;
+  padding-left: 10px;
+}
+.coordonnees .cord2 p {
+  margin-left: 7px;
+}
+.coordonnees div {
+  display: flex;
+}
+.coordonnees div .tel {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 10px;
+  line-height: 0px;
+}
+.coordonnees div .mail {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 10px;
+  line-height: 0px;
+}
+.coordonnees div img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 6px;
+}
+button {
+  width: 80px;
+  border-radius: 7px;
+  border-color: rgb(143, 8, 44);
+  color: rgb(143, 8, 44);
+  background-color: rgb(253, 253, 253);
+  border: 1px solid;
+  font-size: 17px;
+  position: relative;
+  bottom: 4px;
+}
+button:hover {
+  background-color: rgb(241, 213, 235);
+  cursor: pointer;
+}
+.securisation {
+  background-color: rgb(253, 253, 253);
+  border-radius: 10px;
+  width: 50%;
+  height: 150px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.securisation fieldset {
+  border: none;
+  padding: 20px;
+}
+.securisation fieldset p {
+  position: relative;
+  bottom: 33px;
+  left: 5px;
+}

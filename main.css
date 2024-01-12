@@ -1,0 +1,64 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(24089.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+img {
+  height: 300px;
+}
+aside {
+  width: 350px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: rgba(143, 8, 44, 0.123);
+}
+main {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgba(143, 8, 44, 0.123);
+  border-top: 1px solid;
+}
+input {
+  height: 40px;
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid;
+  border-color: rgb(143, 8, 44);
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0);
+}
+button {
+  height: 40px;
+  width: 250px;
+  border-radius: 7px;
+  background-color: #e5c1cd;
+  border: none;
+  box-shadow: 1px 2px 5px 1px;
+}
+button:hover {
+  background-color: aliceblue;
+}
+a {
+  text-decoration: none;
+  color: rgb(143, 8, 44);
+}
+a:hover {
+  color: black;
+}

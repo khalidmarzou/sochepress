@@ -1,0 +1,194 @@
+body {
+  background-color: rgb(243, 246, 255);
+}
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.box {
+  background-color: rgb(143, 8, 44);
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+aside {
+  background-color: rgb(253, 253, 253);
+  width: 15%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  margin-left: 10px;
+}
+.logo {
+  width: 90%;
+  height: 90px;
+  position: relative;
+  left: 7px;
+}
+.choix {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.choix div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.choix div .box1 {
+  height: 30px;
+  width: 30px;
+}
+.choix div p {
+  color: rgb(143, 8, 44);
+  margin-left: 10px;
+}
+.choix div p:hover {
+  color: rgb(216, 126, 196);
+}
+a {
+  text-decoration: none;
+}
+
+.asidemain {
+  display: flex;
+  gap: 15px;
+}
+main table img {
+  height: 25px;
+}
+table input {
+  height: 22px;
+  width: 22px;
+}
+table td {
+  border: 1px dashed;
+  border-left: none;
+  border-top: none;
+}
+table th {
+  border: 1px dashed;
+  border-left: none;
+  border-top: none;
+}
+table {
+  width: 95%;
+  font-size: 17px;
+  color: grey;
+}
+main {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.date {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.date input {
+  height: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: rgb(143, 8, 44);
+  text-align: center;
+}
+.date p {
+  margin-left: 10px;
+}
+main .listappel {
+  background-color: rgb(253, 253, 253);
+  height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+main .listappel button {
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 15px;
+  background-color: rgb(118, 236, 110);
+  color: rgb(0, 123, 81);
+  border: none;
+  box-shadow: 2px 2px 2px 2px;
+  margin-top: 20px;
+}
+main .listappel button:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.chart {
+  display: flex;
+  background-color: rgb(253, 253, 253);
+  width: 50%;
+  border-radius: 15px;
+}
+.chart input {
+  width: 100px;
+  height: 70px;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(239, 234, 234);
+}
+.chart div:nth-of-type(1) input {
+  border: 4px solid;
+  border-color: red;
+}
+.chart div:nth-of-type(2) input {
+  border: 4px solid;
+  border-color: orangered;
+}
+.chart div:nth-of-type(3) input {
+  border: 4px solid;
+  border-color: goldenrod;
+}
+.chart label {
+  font-size: 50px;
+}
+.chart div {
+  text-align: center;
+  width: 200px;
+  height: 160px;
+}
+.chart div h3 {
+  color: grey;
+  position: relative;
+  right: 22px;
+}
+.charthistoric {
+  display: flex;
+  gap: 15px;
+}
+.historic {
+  width: 50%;
+  background-color: rgb(253, 253, 253);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.historic div:nth-of-type(1) {
+  background-color: yellow;
+  border-radius: 15px;
+  width: 50%;
+  height: 27px;
+  text-align: center;
+  font-weight: 500;
+}
+.historic div:nth-of-type(2) {
+  width: 90%;
+  line-height: 10px;
+}
+span {
+  color: grey;
+}

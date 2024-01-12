@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="asidemain">
+      <aside>
+        <a href="../main.html"
+          ><img class="logo" src="../sochepress-logo.png" alt="Logo"
+        /></a>
+        <div class="choix">
+          <div>
+            <img
+              class="box1"
+              src="../iloveimg-resized/profil.png"
+              alt="Profil"
+            />
+            <a href="../sochepress.html"><p>Mon profil</p></a>
+          </div>
+          <div>
+            <img
+              class="box1"
+              src="../iloveimg-resized/dash.png"
+              alt="Dashboard"
+            />
+            <a href="dashboard.html"><p>Dashboard</p></a>
+          </div>
+          <div>
+            <img
+              class="box1"
+              src="../iloveimg-resized/emploi.png"
+              alt="Emploi"
+            />
+            <a href="emploi.html"><p>Emploi de temps</p></a>
+          </div>
+          <div>
+            <img
+              class="box1"
+              src="../iloveimg-resized/cahier.png"
+              alt="Cahier"
+            />
+            <a href="cahier.html"
+              ><p>
+                Saisie du cahier <br />
+                textes
+              </p></a
+            >
+          </div>
+          <div>
+            <img
+              class="box1"
+              src="../iloveimg-resized/appel.png"
+              alt="Lappel"
+            />
+            <a href="appel.html"><p>Feuille d'appel</p></a>
+          </div>
+          <div>
+            <img class="box1" src="../iloveimg-resized/notes.png" alt="Notes" />
+            <a href="notes.html"><p>Saisir des Notes</p></a>
+          </div>
+          <div>
+            <img
+              class="box1"
+              src="../iloveimg-resized/notif.png"
+              alt="Notification"
+            />
+            <a href="notif.html"><p>Notification</p></a>
+          </div>
+          <div>
+            <img class="box1" src="../iloveimg-resized/outil.png" alt="Outil" />
+            <a href="outil.html"><p>Outil pédagogique</p></a>
+          </div>
+          <div>
+            <img class="box1" src="../iloveimg-resized/suivi.png" alt="Suivi" />
+            <a href="suivi.html"><p>Suivi des élèves</p></a>
+          </div>
+          <div>
+            <img
+              class="box"
+              src="../iloveimg-resized/contact1.png"
+              alt="Contact"
+            />
+            <a href="contact.html"><p>Mes Contacts</p></a>
+          </div>
+        </div>
+      </aside>
+      <main>
+        <div class="listauto">
+          <div class="list">
+            <div class="eleve">
+              <p>Elèves</p>
+              <select name="niveau" id="niveau">
+                <option value="">niveau</option>
+                <option value="1ere">1ere année</option>
+                <option value="2eme">2eme année</option>
+                <option value="3eme">3eme année</option>
+              </select>
+              <select name="classe" id="classe">
+                <option value="">Classe</option>
+                <option value="classe1">classe1</option>
+                <option value="classe2">classe2</option>
+                <option value="classe3">classe3</option>
+              </select>
+              <select name="groupe" id="groupe">
+                <option value="">Groupe</option>
+                <option value="105">DD-105</option>
+                <option value="106">DD-106</option>
+                <option value="107">DD-107</option>
+              </select>
+              <select name="eleves" id="eleves">
+                <option value="">élèves</option>
+                <option value="marzoug">MARZOUG</option>
+                <option value="sidqui">SIDQUI</option>
+                <option value="mahfoudi">MAHFOUDI</option>
+              </select>
+            </div>
+            <div class="effectif">
+              <p>Effectif</p>
+              <select name="profs" id="profs">
+                <option value="">professeurs</option>
+                <option value="legedani">LEGEDANI</option>
+                <option value="kharmoudi">KHARMOUDI</option>
+                <option value="jabar">JABAR</option>
+              </select>
+              <select name="admin" id="admin">
+                <option value="">administration</option>
+                <option value="145">145</option>
+                <option value="736">736</option>
+                <option value="933">933</option>
+              </select>
+            </div>
+          </div>
+          <div class="auto">
+            <fieldset>
+              <legend>Autorisations</legend>
+              <p>Je souhaite être contacté par :</p>
+              <dl>
+                <dt>
+                  <input type="checkbox" id="sms" />
+                  <label for="sms">SMS</label>
+                </dt>
+                <dt>
+                  <input type="checkbox" id="mail" />
+                  <label for="mail">Courrier électronique</label>
+                </dt>
+                <dd>
+                  <input type="radio" name="Courrier" id="etatb" />
+                  <label for="etatb">De L'établissement</label>
+                </dd>
+                <dd>
+                  <input type="radio" name="Courrier" id="preleve" />
+                  <label for="preleve">Des parents d'élèves</label>
+                </dd>
+                <dt>
+                  <input type="checkbox" id="papier" />
+                  <label for="papier">Courrier papier</label>
+                </dt>
+              </dl>
+            </fieldset>
+          </div>
+        </div>
+        <div class="disc">
+          <p>J'accepte les discussions avec :</p>
+          <form>
+            <input type="checkbox" id="prof" />
+            <label for="prof">Les professeurs</label>
+          </form>
+          <form>
+            <input type="checkbox" id="personnel" />
+            <label for="personnel">Les personnels</label>
+          </form>
+          <form>
+            <input type="checkbox" id="parent" />
+            <label for="parent">Les parents</label>
+          </form>
+          <form>
+            <input type="checkbox" id="eleve" />
+            <label for="eleve">Les élèves</label>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
